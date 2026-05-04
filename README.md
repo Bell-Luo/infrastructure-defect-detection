@@ -7,7 +7,7 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/你的用户名/infrastructure-defect-detection.git
+git clone https://github.com/Bell-Luo/infrastructure-defect-detection.git
 cd infrastructure-defect-detection
 ```
 
@@ -15,7 +15,7 @@ cd infrastructure-defect-detection
 ```bash
 cd backend
 cp data_example.yaml data.yaml
-# 编辑 data.yaml，把 path 改成你的数据集路径
+# 编辑 data.yaml里第一行，把 path 改成你的数据集路径
 ```
 
 ### 3. 安装依赖
