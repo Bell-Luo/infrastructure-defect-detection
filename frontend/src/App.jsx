@@ -2,9 +2,9 @@ import { useState, useRef, useEffect } from 'react'
 import axios from 'axios'
 import './App.css'
 
-// 修改为你的IP地址，让局域网内的队友也能访问
-const API_BASE = 'http://10.98.245.42:8000/api'
-const RESOURCE_BASE = 'http://10.98.245.42:8000'
+// 本地开发用 localhost，部署后可以改成内网穿透地址或服务器地址
+const API_BASE = 'http://localhost:8000/api'
+const RESOURCE_BASE = 'http://localhost:8000'
 axios.defaults.timeout = 300000
 
 function App() {
