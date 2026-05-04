@@ -1,0 +1,11 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+path: E:/crack-seg
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: crack
+  1: spalling
+  2: seepage
+  3: damage
+  4: corrosion
